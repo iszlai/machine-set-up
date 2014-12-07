@@ -1,3 +1,5 @@
+iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))
+
 echo "Installing apps"
 Read-Host 'Press Enter to continue...' | Out-Null
 choco install avgantivirusfree
